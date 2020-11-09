@@ -144,6 +144,7 @@ let
         kwin-dynamic-workspaces = callPackage ./3rdparty/kwin/scripts/dynamic-workspaces.nix { };
         kwin-tiling = callPackage ./3rdparty/kwin/scripts/tiling.nix { };
         krohnkite = callPackage ./3rdparty/kwin/scripts/krohnkite.nix { };
+        kwin-ultrawide-windows = callPackage ./3rdparty/kwin/scripts/ultrawide-windows.nix { };
       };
 
     };

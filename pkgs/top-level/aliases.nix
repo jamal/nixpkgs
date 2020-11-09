@@ -789,6 +789,7 @@ mapAliases ({
     kwin-dynamic-workspaces
     kwin-tiling
     krohnkite
+    kwin-ultrawide-windows
   ;
   inherit (libsForQt5)
     sddm
