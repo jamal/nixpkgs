@@ -15288,6 +15288,7 @@ in
 
     inherit ((plasma5.override { libsForQt5 = self; }).thirdParty)
       plasma-applet-caffeine-plus kwin-dynamic-workspaces kwin-tiling krohnkite
+      kwin-ultrawide-windows
     ;
 
     ### KDE APPLICATIONS
