@@ -157,7 +157,7 @@ in
 
       systemd.services.docker = {
         wantedBy = optional cfg.enableOnBoot "multi-user.target";
-        environment = proxy_env;
+        environment = { http_proxy="127.0.0.1:8118"; https_proxy="127.0.0.1:8118"; };
         serviceConfig = {
           ExecStart = [
             ""
